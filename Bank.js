@@ -41,9 +41,11 @@ const handleSubmit = function(ev) {
   ev.preventDefault()
   const form = ev.target
   const user = {
-    'Name': form.userName.value,
-    'Age': form.age.value,
-    'Favorite Color': renderColor(form.favoriteColor.value),
+    'b1': form.b1.value,
+    'b2': form.b2.value,
+    'b3': form.b3.value,
+    'b4': form.b4.value,
+    
   }
 
   const list = renderList(user)

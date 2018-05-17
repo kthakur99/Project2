@@ -1,28 +1,27 @@
-body{
-    font-family: sans-serif;
-}
-
-main {
-    display: flex; 
-    justify-content: space-around;   
-}
-
-#userForm{
-    background-color: #00ff00;
-    padding: 1px solid #e3e3e3;
+body {
+    font-family: Dosis, sans-serif;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #userForm {
+    background-color: #eeeeee;
+    border: 1px solid #e3e3e3;
     padding: 1rem;
-}
-
-label{
-    display: block;
-}
-dl {
+  }
+  
+  dl {
     padding: 1rem;
-}
-
-dl > li{
+  }
+  
+  dl li {
     list-style: none;
-}
-dl:nth-of-type(even) {
-    background-color: rgb(247, 3, 3);
+    margin-top: 1rem;
+  }
+  
+  dl:nth-of-type(even) {
+    background-color: WhiteSmoke;
   }
