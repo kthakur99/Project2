@@ -7,7 +7,7 @@ const app = {
 
     document
       .querySelector(selectors.formSelector)
-      .addEventListener('submit', ev => {
+      .addEventListener('submit', ev => { 
         ev.preventDefault()
         this.handleSubmit(ev)
       })
