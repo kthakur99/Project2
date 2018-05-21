@@ -21,6 +21,14 @@ const app = {
       .querySelector('.flickName')
       .textContent = flick.name
 
+    item  
+      .querySelector('.delete')
+      .addEventListener('click', () => {
+      const index = [...item.parentNode.childNodes].indexOf(item)
+      item.parentNode.removeChild(item)
+      this.flicks.splice(index,1)
+      })
+
     return item
   },
 
