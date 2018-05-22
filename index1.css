@@ -3,9 +3,9 @@
     font-family: 'Open Sans', sans-serif;
   }
 
-  img {
+  img{
     position: absolute;
-    left: 42%;
+    left: 40%;
     width: 20%;
     text-align: center;
     margin-top: 4.0rem;
@@ -22,7 +22,7 @@
     left: 0;
     width: 100%;
     text-align: center;
-    margin-top: 1.0rem;
+    margin-top: -6.0rem;
     font-family: Arial, Helvetica, sans-serif, Impact, 'Arial Narrow Bold', sans-serif;
     text-shadow: 0 0 10px #fff,
                  0 0 20px #fff,
